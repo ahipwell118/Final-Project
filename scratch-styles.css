@@ -1,0 +1,34 @@
+/* REQUIREMENT: Custom background color */
+body {
+    background-color: #fdf6e3; 
+    /* REQUIREMENT: Font family */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+    line-height: 1.6;
+}
+
+/* REQUIREMENT: Font color style */
+h1, h3 {
+    color: #268bd2;
+}
+
+/* REQUIREMENT: Div positioning/styling (1 of 3) */
+#top-section {
+    text-align: center;
+    border-bottom: 2px solid #eee;
+    margin-bottom: 20px;
+}
+
+/* REQUIREMENT: Div styling (2 of 3) */
+#content-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+/* REQUIREMENT: Div styling (3 of 3) */
+#tableau-section {
+    padding: 20px;
+    background-color: #eef;
+}
