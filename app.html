@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Highland Cow Name Generator</title>
+    <style>
+        body { text-align: center; padding: 50px; background-color: #f0e68c; font-family: sans-serif; }
+        button { padding: 15px 25px; font-size: 20px; cursor: pointer; background-color: #8b4513; color: white; border: none; border-radius: 5px; }
+        #result { margin-top: 20px; font-size: 24px; font-weight: bold; color: #5d2e0a; }
+    </style>
+</head>
+<body>
+    <h1>Highland Cow Name Generator</h1>
+    <p>Need a name for your next farm addition? Click below!</p>
+    <button onclick="generateName()">Generate Name</button>
+    <div id="result"></div>
+
+    <script>
+        function generateName() {
+            const names = ["Fergus", "Hamish", "Bonnie", "Lassie", "Morag", "Alastair", "Maisie", "Clyde"];
+            const randomName = names[Math.floor(Math.random() * names.length)];
+            document.getElementById('result').innerHTML = "Your cow's name is: " + randomName;
+        }
+    </script>
+    <br><br>
+    <a href="scratch.html">Back to Scratch Page</a>
+</body>
+</html>
