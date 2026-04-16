@@ -1,34 +1,48 @@
-/* REQUIREMENT: Custom background color */
+/* Overall Page Style */
 body {
-    background-color: #fdf6e3; 
-    /* REQUIREMENT: Font family */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 40px;
+    background-color: #f8f9fa; /* The light gray 'Bootstrap' background */
+    font-family: 'Inter', sans-serif; /* Clean professional body font */
+    color: #212529; /* Standard Bootstrap dark text */
     line-height: 1.6;
+    padding: 0;
+    margin: 0;
 }
 
-/* REQUIREMENT: Font color style */
-h1, h3 {
-    color: #268bd2;
-}
-
-/* REQUIREMENT: Div positioning/styling (1 of 3) */
-#top-section {
+/* Matching your Dark Navbar */
+nav {
+    background-color: #212529;
+    padding: 15px;
     text-align: center;
-    border-bottom: 2px solid #eee;
-    margin-bottom: 20px;
 }
 
-/* REQUIREMENT: Div styling (2 of 3) */
-#content-section {
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Matching your Hero Titles */
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif; /* The fancy font from your portfolio */
+    color: #212529;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Styling the Containers (The 3 Divs) */
+#top-section, #content-section, #tableau-section {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
     background-color: white;
-    padding: 20px;
     border-radius: 8px;
-    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Subtle professional shadow */
 }
 
-/* REQUIREMENT: Div styling (3 of 3) */
-#tableau-section {
-    padding: 20px;
-    background-color: #eef;
+/* Styling the links to match Bootstrap primary blue */
+a {
+    color: #0d6efd;
+    font-weight: 600;
 }
